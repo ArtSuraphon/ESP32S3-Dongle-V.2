@@ -1,0 +1,40 @@
+{
+	"network": {
+	  "wifi": {
+		"ssid": null,
+		"password": null,
+		"eap": {
+		  "method": null,
+		  "identity": null,
+		  "client_cert": null,
+		  "client_key": null,
+		  "server_cert": null,
+		  "username": null,
+		  "password": null
+		}
+	  }
+	},
+	"mqtt": {
+	  "server": {
+		"host": "mqtt-smart-thermo.vconf.in.th",
+		"port": 13254,
+		"ssl": false,
+		"client_cert": null,
+		"client_key": null,
+		"server_cert": null,
+		"username": "admin",
+		"password": "pWIQy1rO8r3uzkTaSPJRSEa4pEoP65NOiYWi",
+		"client_id": null
+	  },
+	  "publish": {
+		"retain": true
+	  }
+	},
+	"ble": {
+	  "whitename_prefix": [
+		"JXB_TTM"
+  
+	  ],
+	  "whitelist": []
+	}
+  }
